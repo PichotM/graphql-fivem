@@ -1,6 +1,6 @@
 # GraphQL Wrapper for FiveM
-This resource aims to facilitate the usage of GraphQL on your fivem server.
-It should work with Lua/C#/JS environnements. 
+This resource aims to facilitate the usage of GraphQL on your FiveM server.
+It should work with Lua/C#/JS environments. 
 
 ## Installation
 You need webpack and yarn resources to get this script working and MongoDB.
@@ -22,9 +22,9 @@ This wrapper is relatively simple, here at the main functions.
 ```js
 function registerGraphSchema(name: string, config: GraphQLSchemaConfig);
 ```
-It regiters a "graph schema" and this schema can be later retrived with its name.
+It registers a "graph schema" and this schema can be later retrieved with its name.
 
-/!\ You cannot use this function outside of the JS environnement.
+/!\ You cannot use this function outside of the JS environment.
 
 ```js
 query(schema: string, params: string | Source, callback?: Function);
