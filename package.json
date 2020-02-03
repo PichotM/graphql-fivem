@@ -1,0 +1,27 @@
+{
+  "name": "graphql-fivem",
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "GraphQL for FiveM.",
+  "scripts": {
+    "build": "webpack --mode production --config server.config.js",
+    "watch": "webpack --mode development --watch true --config server.config.js"
+  },
+  "author": "pichotm",
+  "license": "MIT",
+  "dependencies": {
+    "@citizenfx/server": "^1.0.1910-1",
+    "@types/node": "^12.12.22",
+    "graphql": "^14.6.0",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "bufferutil": "^4.0.1",
+    "encoding": "^0.1.12",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.7.4",
+    "utf-8-validate": "^5.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.2"
+  }
+}
